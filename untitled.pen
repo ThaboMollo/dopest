@@ -1,0 +1,1124 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "t4eP0f",
+      "x": 0,
+      "y": 0,
+      "name": "Dopest Media Production",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tMGH3",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 800,
+          "fill": [
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A8355.JPG.jpeg",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 180,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#000000B0",
+                  "position": 0
+                },
+                {
+                  "color": "#00000030",
+                  "position": 0.4
+                },
+                {
+                  "color": "#00000090",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "layout": "vertical",
+          "padding": [
+            40,
+            60,
+            60,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EqieX",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z4ZkP0",
+                  "fill": "$fg-inverse",
+                  "content": "DOPEST MEDIA",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "r90vKA",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BS3P2",
+                      "fill": "$fg-inverse",
+                      "content": "Portfolio",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "h5WWZ4",
+                      "fill": "$fg-inverse",
+                      "content": "Services",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "NJGu2",
+                      "fill": "$fg-inverse",
+                      "content": "About",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "JGUlr",
+                      "fill": "$fg-inverse",
+                      "content": "Contact",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KiIij",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j75s05",
+                  "fill": "$fg-inverse",
+                  "content": "HIGH QUALITY IMAGES",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 13,
+                  "fontWeight": "300",
+                  "letterSpacing": 8
+                },
+                {
+                  "type": "text",
+                  "id": "G5wTen",
+                  "fill": "$fg-inverse",
+                  "content": "DOPEST MEDIA\nPRODUCTION",
+                  "lineHeight": 0.9,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 180,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "w6Rmg",
+                  "fill": "$fg-inverse",
+                  "padding": [
+                    16,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mpmtZ",
+                      "fill": "$fg-primary",
+                      "content": "GET A QUOTE",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nT1Hq",
+          "name": "Philosophy Section",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "$surface",
+          "layout": "vertical",
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XjoIo",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t1OM5Y",
+                  "width": 160,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r4yQ5",
+                      "fill": "$fg-secondary",
+                      "content": "ABOUT US",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "otPga",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g3OyOv",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every frame we capture is a testament to your story. At Dopest Media Production, we blend artistic vision with technical mastery to create images that transcend the ordinary.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 22,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "trTFZ",
+                  "width": 280,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "ycTJC",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A8429.JPG.jpeg",
+                        "mode": "fill"
+                      },
+                      "width": 280,
+                      "height": 340
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Dn211",
+          "name": "Portfolio Section",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            0,
+            60,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SVtrr",
+              "fill": "$fg-primary",
+              "content": "PORTFOLIO",
+              "fontFamily": "Playfair Display",
+              "fontSize": 260,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "T4FqgL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uOpyZ",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W5FRm",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "nfGEC",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A8330.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 340
+                        },
+                        {
+                          "type": "text",
+                          "id": "bALm7",
+                          "fill": "$fg-secondary",
+                          "content": "Studio Portrait",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zvUU5",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "vfgxp",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A6937.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 240
+                        },
+                        {
+                          "type": "text",
+                          "id": "iWSut",
+                          "fill": "$fg-secondary",
+                          "content": "Family Session",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CkceX",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "H5mnd0",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A1418.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "fy5HI",
+                          "fill": "$fg-secondary",
+                          "content": "Creative Editorial",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ge909",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IjBrM",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "ouRU8",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A4108.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 260
+                        },
+                        {
+                          "type": "text",
+                          "id": "LiFCK",
+                          "fill": "$fg-secondary",
+                          "content": "Event Coverage",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nTqIE",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "u31ia",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A6129.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 340
+                        },
+                        {
+                          "type": "text",
+                          "id": "bY6sb",
+                          "fill": "$fg-secondary",
+                          "content": "Intimate Moments",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MB72U",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "t4ddvS",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A9871.JPG.jpeg",
+                            "mode": "fill"
+                          },
+                          "width": "fill_container",
+                          "height": 220
+                        },
+                        {
+                          "type": "text",
+                          "id": "g3aLYB",
+                          "fill": "$fg-secondary",
+                          "content": "Natural Light",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "NYC74",
+              "fill": "$fg-secondary",
+              "content": "View All Work  →",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RE3Xt",
+          "name": "Services Section",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tlVlK",
+              "name": "servicesHeadline",
+              "fill": "$fg-primary",
+              "textGrowth": "fixed-width",
+              "width": 1600,
+              "content": "WHAT WE\nOFFER",
+              "lineHeight": 0.9,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "rcunF",
+              "name": "servicesIntro",
+              "fill": "$fg-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "From intimate studio portraits to on-location house calls, every session is crafted to reveal the extraordinary in the everyday.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Newsreader",
+              "fontSize": 20
+            },
+            {
+              "type": "frame",
+              "id": "DEKwA",
+              "name": "servicesGrid",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mN8px",
+                  "name": "Studio Sessions",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "htZL3",
+                      "fill": "$fg-primary",
+                      "content": "STUDIO SESSIONS",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "yEfKQ",
+                      "fill": "$fg-primary",
+                      "width": 24,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "lXmWF",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "White-background perfection in our fully equipped studio. Up to two outfit changes, professional lighting, and art direction included.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cqA6w",
+                  "name": "House Calls",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bct40",
+                      "fill": "$fg-primary",
+                      "content": "HOUSE CALLS",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "z0B6I",
+                      "fill": "$fg-primary",
+                      "width": 24,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "B5zwnp",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We bring the studio to you. Unlimited photos in the comfort of your home or a location of your choosing.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FO0Lw",
+                  "name": "Props & Décor",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q0m8e",
+                      "fill": "$fg-primary",
+                      "content": "PROPS & DÉCOR",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "LXLch",
+                      "fill": "$fg-primary",
+                      "width": 24,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "FlkuA",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Elevate your shoot with our curated collection — piano, kids car, themed backdrops, and seasonal decorations.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dLpCo",
+                  "name": "Creative Direction",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BlD4P",
+                      "fill": "$fg-primary",
+                      "content": "CREATIVE DIRECTION",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "YHA3n",
+                      "fill": "$fg-primary",
+                      "width": 24,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "MHfl3",
+                      "fill": "$fg-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "From concept to final edit, we guide every detail. Styling advice, mood boards, and post-production artistry.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 17
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "drm2w",
+              "name": "servicesCta",
+              "fill": "$fg-primary",
+              "content": "Get a personalised quote →",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 1.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hfKai",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "layout": "vertical",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "mDCi6",
+              "name": "aboutLabel",
+              "opacity": 0.5,
+              "fill": "$fg-inverse",
+              "content": "THE STUDIO",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "ZMhRO",
+              "name": "aboutRow",
+              "width": "fill_container",
+              "gap": 80,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f0CCOz",
+                  "name": "aboutImage",
+                  "clip": true,
+                  "width": 500,
+                  "height": 500,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/thabomollomponya/Dev/khathaza/dopest/4E8A8434.JPG.jpeg",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "dJ5Pz",
+                  "name": "aboutTextCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UoFgj",
+                      "name": "aboutHeadline",
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Where Vision\nMeets Light",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 56,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E5p7R",
+                      "name": "aboutP1",
+                      "opacity": 0.75,
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dopest Media Production was born from a simple belief: everyone deserves to see themselves at their most extraordinary. What started as a passion project has grown into a full-service studio, trusted by families, couples, and creatives across South Africa.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "D9c8qG",
+                      "name": "aboutP2",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every session is personal. We take the time to understand your vision, your story, and the moments that matter most — then we bring them to life through imagery that endures.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "PgQ5q",
+                      "name": "aboutLink",
+                      "opacity": 0.7,
+                      "fill": "$fg-inverse",
+                      "content": "Our story →",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yM37y",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "NmXIq",
+              "name": "ctaLabel",
+              "fill": "$fg-secondary",
+              "content": "READY TO BEGIN?",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "FSR4c",
+              "name": "ctaHeadline",
+              "fill": "$fg-primary",
+              "textGrowth": "fixed-width",
+              "width": 1600,
+              "content": "LET'S CREATE\nSOMETHING\nBEAUTIFUL",
+              "lineHeight": 0.9,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 120,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "PeTa7",
+              "name": "ctaBody",
+              "fill": "$fg-secondary",
+              "textGrowth": "fixed-width",
+              "width": 550,
+              "content": "Tell us about your vision. We'll craft a bespoke package tailored to your needs — no templates, no compromises.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Newsreader",
+              "fontSize": 20
+            },
+            {
+              "type": "frame",
+              "id": "jVVO9",
+              "name": "ctaButton",
+              "fill": "$fg-primary",
+              "padding": [
+                20,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K7W2x",
+                  "fill": "$fg-inverse",
+                  "content": "GET A QUOTE",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "mara7",
+              "name": "ctaPhone",
+              "fill": "$fg-secondary",
+              "content": "Or call us directly: 065 806 6697",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 12,
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sdNhf",
+          "name": "Footer Section",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            120,
+            48,
+            120
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "lORkv",
+              "name": "footDivider",
+              "opacity": 0.1,
+              "fill": "$fg-inverse",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "m6gER4",
+              "name": "footRow",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H1g7F",
+                  "name": "footBrand",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "asZ1a",
+                      "fill": "$fg-inverse",
+                      "content": "DOPEST MEDIA",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z9ILf",
+                      "fill": "$fg-inverse",
+                      "content": "PRODUCTION",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y8H1Ui",
+                      "opacity": 0.5,
+                      "fill": "$fg-inverse",
+                      "content": "High Quality Images",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 14,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CsIH0",
+                  "name": "footNav",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pBBpb",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "content": "Portfolio",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "DW9gK",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "content": "Services",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "EeEBo",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "content": "About",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "QDKHC",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "content": "Contact",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EIda2",
+                  "name": "footContact",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sUzLc",
+                      "opacity": 0.6,
+                      "fill": "$fg-inverse",
+                      "content": "065 806 6697",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "s0URv4",
+                      "opacity": 0.4,
+                      "fill": "$fg-inverse",
+                      "content": "Facebook & Instagram",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "PIwzA",
+              "name": "footCopyright",
+              "opacity": 0.3,
+              "fill": "$fg-inverse",
+              "content": "© 2026 Dopest Media Production. All rights reserved.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "divider": {
+      "type": "color",
+      "value": "#1A1A1A20"
+    },
+    "fg-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fg-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "fg-secondary": {
+      "type": "color",
+      "value": "#4A4A4A"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#F4F2EF"
+    },
+    "surface-dark": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "surface-medium": {
+      "type": "color",
+      "value": "#2A2A2A"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Newsreader", serif;
+  --font-caption: "Funnel Sans", sans-serif;
+
+  --color-surface: #F4F2EF;
+  --color-surface-dark: #1A1A1A;
+  --color-fg-primary: #1A1A1A;
+  --color-fg-secondary: #4A4A4A;
+  --color-fg-inverse: #FFFFFF;
+  --color-accent: #B8860B;
+  --color-accent-hover: #9A7209;
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-fg-primary);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-fg-inverse);
+}
