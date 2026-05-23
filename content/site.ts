@@ -1,11 +1,28 @@
 export const siteConfig = {
   name: "Dopest Media Production",
   tagline: "High Quality Images",
+  description:
+    "Premium photography studio in South Africa offering studio sessions, house calls, creative direction, and bespoke styling for portraits, families, events, and editorial shoots.",
   phone: "065 806 6697",
+  internationalPhone: "+27658066697",
   phoneLink: "tel:+27658066697",
   whatsappLink:
     "https://wa.me/27658066697?text=Hi%2C%20I'd%20like%20to%20get%20a%20quote%20for%20a%20photoshoot",
   url: "https://dopestmedia.co.za",
+  locale: "en_ZA",
+  region: "South Africa",
+  lastModified: "2026-05-23",
+  ogImage: "/images/hero-bg.jpg",
+  keywords: [
+    "Dopest Media Production",
+    "photography studio South Africa",
+    "studio photography",
+    "portrait photography",
+    "family photography",
+    "event photography",
+    "house call photographer",
+    "creative direction photography",
+  ],
 } as const;
 
 export const navLinks = [
