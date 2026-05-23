@@ -17,13 +17,17 @@ const landscapeImages = allPortfolioImages.slice(0, 3);
 const portraitImages = allPortfolioImages.slice(3, 6);
 const extraImages = allPortfolioImages.slice(6, 9);
 
-export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps) {
+export function GalleryModal({
+  open,
+  onClose,
+  onImageClick,
+}: GalleryModalProps) {
   const [mounted, setMounted] = useState(false);
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     },
-    [onClose]
+    [onClose],
   );
 
   useEffect(() => {
@@ -91,7 +95,7 @@ export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps)
         </motion.div>
       )}
     </AnimatePresence>,
-    document.body
+    document.body,
   );
 }
 

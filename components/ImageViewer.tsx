@@ -37,7 +37,7 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
       if (e.key === "ArrowRight") goNext();
       if (e.key === "ArrowLeft") goPrev();
     },
-    [onClose, goNext, goPrev]
+    [onClose, goNext, goPrev],
   );
 
   useEffect(() => {
@@ -149,6 +149,6 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
         </motion.div>
       )}
     </AnimatePresence>,
-    document.body
+    document.body,
   );
 }
