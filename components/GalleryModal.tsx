@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useState } from "react";
 import { createPortal } from "react-dom";
 import Image from "next/image";
 import { X } from "lucide-react";
@@ -18,12 +18,17 @@ const portraitImages = allPortfolioImages.slice(3, 6);
 const extraImages = allPortfolioImages.slice(6, 9);
 
 export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps) {
+  const [mounted, setMounted] = useState(false);
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     },
     [onClose]
   );
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (open) {
@@ -35,6 +40,8 @@ export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps)
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [open, handleKeyDown]);
+
+  if (!mounted) return null;
 
   return createPortal(
     <AnimatePresence>

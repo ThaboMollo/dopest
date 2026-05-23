@@ -15,6 +15,7 @@ interface ImageViewerProps {
 
 export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
+  const [mounted, setMounted] = useState(false);
   const touchStartX = useRef(0);
   const total = allPortfolioImages.length;
 
@@ -40,6 +41,10 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
   );
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
       window.addEventListener("keydown", handleKeyDown);
@@ -63,6 +68,8 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
   };
 
   const img = allPortfolioImages[currentIndex];
+
+  if (!mounted) return null;
 
   return createPortal(
     <AnimatePresence>
