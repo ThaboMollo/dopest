@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useCallback, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -63,7 +64,7 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
 
   const img = allPortfolioImages[currentIndex];
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div
@@ -71,7 +72,7 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.25 }}
-          className="fixed inset-0 z-[60] flex flex-col bg-black/95"
+          className="fixed inset-0 z-[70] flex flex-col bg-black"
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >
@@ -140,6 +141,7 @@ export function ImageViewer({ open, initialIndex, onClose }: ImageViewerProps) {
           </div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }

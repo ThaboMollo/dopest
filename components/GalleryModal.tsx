@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -35,7 +36,7 @@ export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps)
     };
   }, [open, handleKeyDown]);
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div
@@ -43,7 +44,7 @@ export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps)
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-50 flex flex-col bg-black/90"
+          className="fixed inset-0 z-[60] flex flex-col bg-black"
         >
           <div className="flex items-center justify-between border-b border-white/10 px-6 py-4 lg:px-10">
             <span className="font-caption text-xs tracking-[4px] uppercase text-white/50">
@@ -82,7 +83,8 @@ export function GalleryModal({ open, onClose, onImageClick }: GalleryModalProps)
           </div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
 
